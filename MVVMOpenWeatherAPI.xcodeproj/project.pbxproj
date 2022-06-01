@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256C4ACAD16A4A4B67D6F88A /* Pods_MVVMOpenWeatherAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39E1E6F45E9538F4484EFCB /* Pods_MVVMOpenWeatherAPI.framework */; };
 		4F305C67284738840004EA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F305C66284738840004EA26 /* AppDelegate.swift */; };
 		4F305C69284738840004EA26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F305C68284738840004EA26 /* SceneDelegate.swift */; };
-		4F305C6B284738840004EA26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F305C6A284738840004EA26 /* ViewController.swift */; };
 		4F305C6E284738840004EA26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F305C6C284738840004EA26 /* Main.storyboard */; };
 		4F305C70284738860004EA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F305C6F284738860004EA26 /* Assets.xcassets */; };
 		4F305C73284738860004EA26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F305C71284738860004EA26 /* LaunchScreen.storyboard */; };
+		4F305C802847391C0004EA26 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F305C7F2847391C0004EA26 /* APIService.swift */; };
+		4F305C82284739410004EA26 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F305C81284739410004EA26 /* WeatherViewController.swift */; };
+		4F305C8428473DC70004EA26 /* WeatherMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F305C8328473DC70004EA26 /* WeatherMain.swift */; };
+		4F305C862847416B0004EA26 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F305C852847416B0004EA26 /* Global.swift */; };
+		4F6F703B2847529500CF6085 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F703A2847529500CF6085 /* WeatherViewModel.swift */; };
+		4F6F703D284752AB00CF6085 /* WeatherCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F703C284752AB00CF6085 /* WeatherCellViewModel.swift */; };
+		4F6F703F28476AEA00CF6085 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F703E28476AEA00CF6085 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20E6DD6AF89260EAAEBDE258 /* Pods-MVVMOpenWeatherAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMOpenWeatherAPI.release.xcconfig"; path = "Target Support Files/Pods-MVVMOpenWeatherAPI/Pods-MVVMOpenWeatherAPI.release.xcconfig"; sourceTree = "<group>"; };
 		4F305C63284738840004EA26 /* MVVMOpenWeatherAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMOpenWeatherAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F305C66284738840004EA26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F305C68284738840004EA26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F305C6A284738840004EA26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F305C6D284738840004EA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F305C6F284738860004EA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F305C72284738860004EA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F305C74284738860004EA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F305C7F2847391C0004EA26 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		4F305C81284739410004EA26 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		4F305C8328473DC70004EA26 /* WeatherMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMain.swift; sourceTree = "<group>"; };
+		4F305C852847416B0004EA26 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		4F6F703A2847529500CF6085 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		4F6F703C284752AB00CF6085 /* WeatherCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellViewModel.swift; sourceTree = "<group>"; };
+		4F6F703E28476AEA00CF6085 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9ED8A219B7A906E2581A53B6 /* Pods-MVVMOpenWeatherAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMOpenWeatherAPI.debug.xcconfig"; path = "Target Support Files/Pods-MVVMOpenWeatherAPI/Pods-MVVMOpenWeatherAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		C39E1E6F45E9538F4484EFCB /* Pods_MVVMOpenWeatherAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMOpenWeatherAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256C4ACAD16A4A4B67D6F88A /* Pods_MVVMOpenWeatherAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				4F305C65284738840004EA26 /* MVVMOpenWeatherAPI */,
 				4F305C64284738840004EA26 /* Products */,
+				91B77594D821002EF802DE68 /* Pods */,
+				9652E7621E9E6972C4962FD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,78 @@
 		4F305C65284738840004EA26 /* MVVMOpenWeatherAPI */ = {
 			isa = PBXGroup;
 			children = (
+				4F305C7E284739060004EA26 /* ViewModel */,
+				4F305C7D284738FA0004EA26 /* View */,
+				4F305C7C284738F30004EA26 /* Model */,
+				4F305C7B284738ED0004EA26 /* Service */,
+				4F305C7A284738DC0004EA26 /* Helper */,
 				4F305C66284738840004EA26 /* AppDelegate.swift */,
 				4F305C68284738840004EA26 /* SceneDelegate.swift */,
-				4F305C6A284738840004EA26 /* ViewController.swift */,
 				4F305C6C284738840004EA26 /* Main.storyboard */,
 				4F305C6F284738860004EA26 /* Assets.xcassets */,
 				4F305C71284738860004EA26 /* LaunchScreen.storyboard */,
 				4F305C74284738860004EA26 /* Info.plist */,
 			);
 			path = MVVMOpenWeatherAPI;
+			sourceTree = "<group>";
+		};
+		4F305C7A284738DC0004EA26 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4F305C852847416B0004EA26 /* Global.swift */,
+				4F6F703E28476AEA00CF6085 /* Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4F305C7B284738ED0004EA26 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4F305C7F2847391C0004EA26 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4F305C7C284738F30004EA26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F305C8328473DC70004EA26 /* WeatherMain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F305C7D284738FA0004EA26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F305C81284739410004EA26 /* WeatherViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F305C7E284739060004EA26 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F6F703A2847529500CF6085 /* WeatherViewModel.swift */,
+				4F6F703C284752AB00CF6085 /* WeatherCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		91B77594D821002EF802DE68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED8A219B7A906E2581A53B6 /* Pods-MVVMOpenWeatherAPI.debug.xcconfig */,
+				20E6DD6AF89260EAAEBDE258 /* Pods-MVVMOpenWeatherAPI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9652E7621E9E6972C4962FD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C39E1E6F45E9538F4484EFCB /* Pods_MVVMOpenWeatherAPI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F305C77284738860004EA26 /* Build configuration list for PBXNativeTarget "MVVMOpenWeatherAPI" */;
 			buildPhases = (
+				0EC16FD47F76543C32D4ED60 /* [CP] Check Pods Manifest.lock */,
 				4F305C5F284738840004EA26 /* Sources */,
 				4F305C60284738840004EA26 /* Frameworks */,
 				4F305C61284738840004EA26 /* Resources */,
+				34556C881A92D8D429E96641 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +217,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EC16FD47F76543C32D4ED60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMOpenWeatherAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34556C881A92D8D429E96641 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMOpenWeatherAPI/Pods-MVVMOpenWeatherAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMOpenWeatherAPI/Pods-MVVMOpenWeatherAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVMOpenWeatherAPI/Pods-MVVMOpenWeatherAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F305C5F284738840004EA26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F305C6B284738840004EA26 /* ViewController.swift in Sources */,
 				4F305C67284738840004EA26 /* AppDelegate.swift in Sources */,
+				4F6F703F28476AEA00CF6085 /* Extensions.swift in Sources */,
+				4F6F703D284752AB00CF6085 /* WeatherCellViewModel.swift in Sources */,
+				4F305C8428473DC70004EA26 /* WeatherMain.swift in Sources */,
+				4F305C862847416B0004EA26 /* Global.swift in Sources */,
+				4F6F703B2847529500CF6085 /* WeatherViewModel.swift in Sources */,
+				4F305C82284739410004EA26 /* WeatherViewController.swift in Sources */,
+				4F305C802847391C0004EA26 /* APIService.swift in Sources */,
 				4F305C69284738840004EA26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +416,7 @@
 		};
 		4F305C78284738860004EA26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED8A219B7A906E2581A53B6 /* Pods-MVVMOpenWeatherAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +445,7 @@
 		};
 		4F305C79284738860004EA26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E6DD6AF89260EAAEBDE258 /* Pods-MVVMOpenWeatherAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
